@@ -26,13 +26,19 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-
+import instaProject from "./instaproject.jpg";
+import auth from "./auth.png";
+import pickmecolor from "./pickmecolor.png";
+import yt from "./yt.png";
+import taskify from "./taskify.png";
+import ambulance from "./ambulance.png";
 export {
   logo,
+  ambulance,
+  auth,
+  pickmecolor,
+  taskify,
+  yt,
   backend,
   creator,
   mobile,
@@ -58,7 +64,5 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  instaProject,
 };
