@@ -19,7 +19,7 @@ import {
   taskify,
   yt,
   pickmecolor,
-  auth,
+  notes,
   ambulance,
 } from "../assets";
 
@@ -110,6 +110,69 @@ const technologies = [
 
 const projects = [
   {
+    name: "Make Notes",
+    description:
+      "A web application to implement authentication using nodejs and jwt token",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nodeJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: notes,
+    source_code_link: "https://github.com/Rahul0714/notes-app-ui",
+  },
+  {
+    name: "Minstagram",
+    description: "A Mobile application that is replica of instagram",
+    tags: [
+      {
+        name: "Futter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Dart",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: instaProject,
+    source_code_link: "https://github.com/Rahul0714/Minstagram",
+  },
+  {
+    name: "Ambulance Tracker",
+    description:
+      "A mobile application ambulance Tracker during COVID-19 to find nearest ambulance and hospital with empty bed for the patient",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google map api",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ambulance,
+    source_code_link:
+      "https://github.com/Rahul0714/Ambulance-Tracker-Using-Haversine-Formula",
+  },
+  {
     name: "Taskify",
     description:
       "A Todo List to keep track of tasks with drag and drop functionality to move task between active and completed task",
@@ -167,69 +230,6 @@ const projects = [
     ],
     image: pickmecolor,
     source_code_link: "https://github.com/Rahul0714/pickmecolor",
-  },
-  {
-    name: "Authentication App",
-    description:
-      "A web application to implement authentication using nodejs and jwt token",
-    tags: [
-      {
-        name: "nodejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "jwt",
-        color: "green-text-gradient",
-      },
-      {
-        name: "redux toolkit",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: auth,
-    source_code_link: "https://github.com/Rahul0714/authntication_app",
-  },
-  {
-    name: "Minstagram",
-    description: "A Mobile application that is replica of instagram",
-    tags: [
-      {
-        name: "Futter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Dart",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: instaProject,
-    source_code_link: "https://github.com/Rahul0714/Minstagram",
-  },
-  {
-    name: "Ambulance Tracker",
-    description:
-      "A mobile application ambulance Tracker during COVID-19 to find nearest ambulance and hospital with empty bed for the patient",
-    tags: [
-      {
-        name: "Flutter",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Google map api",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ambulance,
-    source_code_link:
-      "https://github.com/Rahul0714/Ambulance-Tracker-Using-Haversine-Formula",
   },
 ];
 

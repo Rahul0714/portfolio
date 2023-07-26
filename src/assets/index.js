@@ -28,6 +28,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import instaProject from "./instaproject.jpg";
 import auth from "./auth.png";
+import notes from "./notes.png";
 import pickmecolor from "./pickmecolor.png";
 import yt from "./yt.png";
 import taskify from "./taskify.png";
@@ -63,6 +64,7 @@ export {
   flutter,
   shopify,
   starbucks,
+  notes,
   tesla,
   instaProject,
 };
